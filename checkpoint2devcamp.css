@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    padding: 0px;
+    margin: 0px;
+    font-size: 62.5;
+}
+body {
+    margin: 0px;
+    background-color:rgb(101, 97, 97);
+    height: 1000px;
+} 
+
+nav {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+   }
+
+   .wrapper {
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+   .codepen {
+    width: 200px;
+   }
+.codepen > img {
+    width: 140%;
+}
+  .left-wrapper {
+    margin-left: 50px;
+  }
+  
+.left-wrapper-explore {
+    color: yellow;
+    font-size: 2rem;
+}
+
+   .left-wrapper-elements {
+    display: flex;
+    gap: 30px;
+    font-size: 2rem;
+
+   }
+
+   .elements-spark {
+    display: flex;
+    font-size: 2rem;
+    gap: 5px;
+    margin-top: 40px;
+   }
+
+   .items-create {
+    display: flex;
+    gap: 5px;
+    width: 200px;
+    height: 80px;
+    font-size: 2rem;
+    background-color: rgb(101, 97, 97);
+    margin-right: 100px;
+    align-items: center;
+   }
+
+  
+
+   .items-magnifying-glass {
+    display: flex;
+    align-items: center;
+    background-color: rgb(101, 97, 97);
+    width: 250px;
+    height: 80px;
+    font-size: 2rem;
+   }
+   
+   .items-login{
+    display: flex;
+    align-items: center;
+    background-color: rgb(101, 97, 97);
+    width: 100px;
+    height: 80px;
+    font-size: 2rem;
+   }
+   
+   .items-signup {
+    display: flex;
+    align-items: center;
+    background-color: rgb(101, 97, 97);
+    width: 150px;
+    height: 80px;
+    font-size: 2rem;
+
+   }
+   main {
+    width: 60%;
+   }
+
+   aside {
+   margin-top: 45px;
+   
+   }
+   .paragraph-blue {
+    font-size: 1.3rem;
+    
+   }
+   .paragraph-blue > span {
+    color:rgb(102, 235, 255);
+
+   }
+
+   img {
+    width: 750px;
+   }
+
+   .container {
+    display: flex;
+    justify-content: space-between;
+    background-color:  rgb(101, 97, 97);
+    color: white;
+    width: 100%;
+    height: 60%;
+   }
+
+   .paragraph-buttoms {
+    margin-left: 50px;
+    display: flex;
+    font-size: 2rem;
+    gap: 20px;
+    text-align: center;
+    margin-top: 50px;
+   }
+
+   .buttom-green {
+    background-color: rgb(45, 198, 45);
+    width: 250px;
+    height: 50px;
+   }
+
+   .buttom-black {
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 50px;
+   }
+
+   .paragraph-top {
+    height: 50%;
+    width: 100%;
+    font-size: 2rem;
+    margin-top: 120px;
+    margin-left: 50px;
+
+   }
+   .paragraph-center {
+    width: 100%;
+    height: 20%;
+    font-size: 2rem;
+    margin-top: -80px;
+    margin-left: 50px;
+   }
+
+   footer {
+    display: flex;
+    background-color: rgb(167, 155, 155);
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.buttom-teams {
+    border: 1px solid white;
+    width: 25%;
+}
+   
+.buttom-education {
+    border: 1px solid white;
+    width: 25%;
+}
+   
+.buttom-privacy {
+    border: 1px solid white;
+    width: 25%;
+}
+   
+.buttom-writing {
+    border: 1px solid white;
+    width: 25%;
+}
+   
